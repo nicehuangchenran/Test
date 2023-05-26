@@ -8,3 +8,10 @@ git remote -v 查看本地仓库所链接的远程仓库，
 	origin  git@github.com:nicehuangchenran/Test.git (push)
 
 git pull origin main 从origin远程仓库拉取main branch到本地
+
+git checkout -b first-branch 增加一个branch
+
+git add .
+git commit -m "增加了一个git总结文档" commit到本地repo
+
+git push -u origin first-branch 发起push，项目创建者可以据此创建pull request,创建pull request后可以选择merge到base branch
