@@ -1,0 +1,10 @@
+git init 在此目录下创建一个git，生成.git文件
+
+git remote add origin git@github.com:RuiTan/test.git 添加远程仓库，origin是远程仓库的别名
+
+git remote -v 查看本地仓库所链接的远程仓库，
+	$ git remote -v
+	origin  git@github.com:nicehuangchenran/Test.git (fetch)
+	origin  git@github.com:nicehuangchenran/Test.git (push)
+
+git pull origin main 从origin远程仓库拉取main branch到本地
