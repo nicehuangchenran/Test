@@ -15,7 +15,7 @@
 ## git checkout -b first-branch 增加一个branch
 ## git checkout branch-name 切换branch
 
-## git add .
+## git add . 将分支中的内容上传到本地缓冲区（index）
 ## git status 查看当前本地repo分支状态
 ## git commit -m "增加了一个git总结文档" commit到本地repo
 
